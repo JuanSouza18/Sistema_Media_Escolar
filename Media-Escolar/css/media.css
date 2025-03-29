@@ -1,0 +1,64 @@
+/* Estilos gerais do body */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: #333333; /* Cor de texto mais suave */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f9f9f9; /* Fundo mais suave */
+    background: linear-gradient(135deg, #288578, #a15394);
+    
+}
+
+/* Container centralizado */
+.container {
+    max-width: 450px; /* Maior largura para um layout mais espaçoso */
+    width: 100%;
+    padding: 30px; /* Maior espaçamento interno */
+    background-color: #ffffff; /* Cor de fundo mais clara para destacar */
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); /* Sombra mais suave e expansiva */
+    text-align: left; /* Alinhamento do texto à esquerda para melhor leitura */
+}
+
+/* Estilos para os inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0; /* Maior margem entre os campos */
+    display: block;
+    border: 1px solid #ccc; /* Borda mais suave */
+    border-radius: 8px; /* Borda mais arredondada */
+    font-size: 16px; /* Tamanho de fonte maior para os inputs */
+    box-sizing: border-box; /* Para que o padding não afete a largura total */
+}
+
+/* Estilos para o botão */
+button {
+    padding: 14px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px; /* Borda mais arredondada para o botão */
+    font-weight: bold;
+    font-size: 16px; /* Tamanho de fonte maior para o botão */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transição suave */
+}
+
+/* Efeito hover para o botão */
+button:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+    transform: translateY(-2px); /* Leve elevação no botão */
+}
+
+/* Efeito de foco nos inputs */
+input:focus {
+    border-color: #007BFF; /* Cor da borda ao focar */
+    outline: none; /* Remove a borda de foco padrão */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Sombra leve ao focar */
+}
