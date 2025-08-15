@@ -1,3 +1,3 @@
-The teacher enters the student's 4 grades, the system adds them up and divides them by 4 and displays the student's average.
+Desenvolvi uma aplicação web que calcula a média escolar a partir de 4 notas inseridas pelo professor. O sistema realiza a soma das notas, divide por 4 e exibe o resultado dinamicamente na página.
 
-I learned a lot from this project, because I remembered HTML and CSS, and I learned new things with JS.
+Este projeto me ajudou a consolidar os fundamentos de desenvolvimento web front-end, especialmente na integração entre HTML (estrutura), CSS (aparência) e JavaScript (funcionalidade). A prática me permitiu entender na prática como esses três componentes trabalham juntos para criar aplicações interativas.
